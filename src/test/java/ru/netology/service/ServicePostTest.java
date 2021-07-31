@@ -18,7 +18,7 @@ public class ServicePostTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("some data"))
+                .body("data", equalTo("some value"))
         ;
     }
 }
